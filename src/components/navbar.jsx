@@ -1,13 +1,26 @@
+import { Link } from "react-router-dom"
 function Navbar(){
     return(
         <header className="navbar">
             <div className="navbar-container">
                 <a href="/" className="logo">Quotiva</a>
                 <nav className="nav-links">
-                    <a href="/">Home</a>
-                    <a href="/explore">Explore</a>
-                    <a href="/categories">Categories</a>
-                    <a href="/favorites">Favorites</a>
+                    
+                    <Link to="/">
+                        Home
+                    </Link>
+
+                    <Link to="/explore">
+                        Explore
+                    </Link>
+
+                    <Link to="/categories">
+                        Categories
+                    </Link>
+
+                    <Link to="/favorites">
+                        Favorites
+                    </Link>
                 </nav>
                 <button className="search-button">Search</button>
             </div>

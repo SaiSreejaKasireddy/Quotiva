@@ -129,19 +129,17 @@ body {
 
     margin-bottom: 25px;
 }
-
 .hero-description {
     max-width: 600px;
-
-    margin: 0 auto 35px;
-
+    margin: 0 auto 50px;
     font-size: 18px;
     line-height: 1.7;
-
     color: #666;
 }
 
 .hero-button {
+    margin-top: 10px;
+
     padding: 14px 30px;
 
     border: 2px solid #8b5e3c;
@@ -154,7 +152,6 @@ body {
     font-weight: 600;
 
     cursor: pointer;
-
     transition: 0.3s;
 }
 
@@ -216,4 +213,155 @@ body {
 .save-quote:hover {
     background: #8b5e3c;
     color: #ffffff;
+}
+.categories {
+    padding: 100px 80px;
+    background: #f8f6f2;
+    text-align: center;
+}
+
+.categories h2 {
+    font-size: 38px;
+    margin-bottom: 50px;
+    color: #222;
+}
+
+.category-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.category-card {
+    background: #ffffff;
+
+    padding: 35px 30px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+    text-align: left;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.category-card h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+.category-card span {
+    font-size: 14px;
+    font-weight: 600;
+    color: #8b5e3c;
+}
+
+.category-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+.trending {
+    padding: 100px 80px;
+    background: #ffffff;
+    text-align: center;
+}
+
+.trending h2 {
+    font-size: 38px;
+    margin-bottom: 50px;
+    color: #222;
+}
+
+.quote-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.quote-card {
+    padding: 35px 30px;
+
+    background: #f8f6f2;
+
+    border-radius: 10px;
+
+    text-align: left;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+    transition: 0.3s;
+}
+
+.quote-card:hover {
+    transform: translateY(-6px);
+
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+.quote-text {
+    font-size: 20px;
+    line-height: 1.6;
+    font-weight: 600;
+
+    color: #222;
+
+    margin-bottom: 20px;
+}
+
+.quote-author {
+    font-size: 15px;
+    color: #666;
+
+    margin-bottom: 20px;
+}
+
+.quote-category {
+    display: inline-block;
+
+    padding: 5px 12px;
+
+    border-radius: 20px;
+
+    background: #8b5e3c;
+    color: #ffffff;
+
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.quote-actions {
+    display: flex;
+    gap: 10px;
+
+    margin-top: 25px;
+}
+
+.quote-actions button {
+    padding: 8px 14px;
+
+    border: 1px solid #ddd;
+    border-radius: 6px;
+
+    background: #ffffff;
+    color: #444;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.quote-actions button:hover {
+    background: #8b5e3c;
+    color: #ffffff;
+    border-color: #8b5e3c;
 }
